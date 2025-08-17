@@ -36,8 +36,11 @@ uwsgi --reload uwsgi_pid
 
 ## caddy反向代理配置文件示例：
 
+
 example.com {
+
     encode gzip zstd
+    
     tls you@example.com   # 证书由 Caddy 自动签发/续期
 
     @static {
@@ -64,7 +67,7 @@ example.com {
             roll_keep_for 720h
         }
     }
-  }  
+ }   
 
 
 
