@@ -28,7 +28,7 @@
 # Github: https://github.com/aploium/zmirror
 
 # ############## Local Domain Settings ##############
-my_host_name = 'fox.ynsc.eu.org'
+my_host_name = 'my.ynsc.com'
 my_host_scheme = 'https://'
 my_host_port = None  # None表示使用默认端口, 可以设置成非标准端口, 比如 81
 
