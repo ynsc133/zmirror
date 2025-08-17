@@ -5,7 +5,9 @@ https://caq98i.top/article/?page=106
 
 ## 部署:
 mkdir /www
+
 docker run -it --net host -v /www:/home/www --name caq98i anqiqii/flask39 bash
+
 pip install cchardet fastcache
 
 ## 修改config.py配置文件中的example.com为自己的域名：
@@ -29,6 +31,7 @@ mv uwsig.ini uwsgi.ini
 
 ## 停止或重启：
 uwsgi --stop uwsgi_pid
+
 uwsgi --reload uwsgi_pid
 
 ## caddy反向代理配置文件示例：
