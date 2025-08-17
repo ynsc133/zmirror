@@ -34,6 +34,8 @@ uwsgi --stop uwsgi_pid
 
 uwsgi --reload uwsgi_pid
 
+## 退出容器：CTRL + P + Q
+
 ## caddy反向代理配置文件示例：
 
 
